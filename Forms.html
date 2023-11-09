@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>signup form</h1></legend>
+    <form action="./signup.html" target="_blank">
+      <label for="firstName">Firstname:</label>
+      <input
+        type="text"
+        name="fName"
+        id="firstName"
+        placeholder="enter firstname"
+      /><br /><br />
+      <label for="sName">SecondName:</label>
+      <input  type="text" name="sName" id="sName" /><br />
+      <label for="phone">mobilenumber</label>
+      <input name="phone" id="phone" type="tel" pattern="[0-9]{10}" /><br />
+      <label for="mail">Email:</label>
+      <input autofocus type="email" name="mail" id="mail" required />
+      <p>Enter your gender:</p>
+
+      <label for="male">male</label
+      ><input type="radio" value="male" name="gender" id="male" />
+      <label for="female">female</label
+      ><input type="radio" value="female" name="gender" id="female" />
+      <label for="others">others</label
+      ><input type="radio" value="others" name="gender" id="others" />
+
+      <textarea rows="9" cols="30"></textarea>
+      <!-- <input type="checkbox" />
+      <input type="checkbox" /> -->
+      <p>choose yout fav language:</p>
+      <label for="html">html</label>
+      <input type="checkbox" id="html" name="html" value="html"  checked/>
+      <label for="css">css</label>
+      <input type="checkbox" id="css" name="css" value="css"checked />
+      <label for="js">javascript</label>
+      <input type="checkbox" id="js" name="js" value="js" />
+
+      <label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+<label for="Clors">choose fav color:</label>
+<select id="Clors">
+  <option value="orange">orange</option>
+  <option value="yellow">yellow</option>
+  <option value="black">black</option>
+  <option value="blue">blue</option>
+</select>
+
+<input type="search"/>
+
+
+
+      <br /><input type="submit" />
+
+      <!-- regular expr -->
+    </form>
+    </fieldset>
+  </body>
+</html>
